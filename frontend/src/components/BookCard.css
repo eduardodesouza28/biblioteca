@@ -1,72 +1,106 @@
 /* src/components/BookCard.css */
 .book-card {
   background-color: white;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  padding: 16px;
-  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08), 0 0 2px rgba(0,0,0,0.05); /* Sombra mais suave */
+  border-radius: var(--border-radius);
+  padding: 1.25rem; /* Aumentado padding interno */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 280px; /* Largura fixa para exemplo, pode ser ajustado com grid */
-  box-sizing: border-box;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  border: 1px solid var(--border-color);
+}
+
+.book-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1), 0 0 4px rgba(0,0,0,0.07);
+}
+
+.book-card-image-container { /* Novo container para a imagem */
+  width: 100%;
+  height: 220px; /* Altura fixa para a imagem */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  overflow: hidden; /* Para garantir que a imagem não ultrapasse */
+  background-color: #f0f0f0; /* Fundo enquanto a imagem carrega ou se não houver imagem */
+  border-radius: calc(var(--border-radius) - 2px); /* Um pouco menor que o card */
 }
 
 .book-card-image {
-  width: 100%;
-  height: 200px;
-  object-fit: contain; /* 'cover' ou 'contain' dependendo do efeito desejado */
-  margin-bottom: 12px;
-  border-radius: 4px;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: calc(var(--border-radius) - 2px);
 }
 
 .book-card h3 {
-  font-size: 1.4em;
-  color: #0056b3; /* Azul mais escuro para títulos */
-  margin-bottom: 4px;
-  margin-top: 0;
+  font-size: 1.25rem; /* Ajustado */
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  min-height: 2.5em; /* Para alinhar títulos de tamanhos diferentes */
 }
 
 .book-card p {
-  font-size: 0.9em;
+  font-size: 0.9rem;
   color: #555;
-  margin-bottom: 4px;
+  margin-bottom: 0.3rem;
+}
+.book-card p strong {
+  color: #333;
 }
 
 .book-card-status {
-  font-size: 0.9em;
+  font-size: 0.9rem;
   font-weight: bold;
-  margin-top: 8px;
+  margin-top: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: calc(var(--border-radius) / 2);
+  display: inline-block; /* Para o padding funcionar bem */
 }
 
 .status-disponivel {
-  color: #28a745; /* Verde */
+  color: var(--success-color);
+  background-color: #e9f7ef; /* Fundo suave para status */
 }
 
 .status-reservado {
-  color: #fd7e14; /* Laranja */
+  color: var(--warning-color);
+  background-color: #fff8e1; /* Fundo suave para status */
+}
+.status-reservado small { /* Estilo para o nome do reservador */
+  font-weight: normal;
+  color: #757575;
 }
 
 .book-card-actions {
-  margin-top: 16px;
-  display: flex;
-  flex-wrap: wrap; /* Permite que botões quebrem linha se necessário */
-  gap: 8px; /* Espaço entre os botões */
+  margin-top: 1.25rem;
+  display: grid; /* Usando grid para botões */
+  grid-template-columns: 1fr 1fr; /* Duas colunas */
+  gap: 0.5rem;
 }
 
 .book-card-actions button {
-  flex: 1; /* Faz os botões dividirem o espaço, se houver poucos */
-  min-width: 100px; /* Largura mínima para não ficarem muito pequenos */
-  padding: 6px 10px;
-  font-size: 0.85em;
+  width: 100%; /* Botões ocupam toda a largura da coluna do grid */
+  padding: 0.5rem 0.5rem;
+  font-size: 0.85rem;
   border: none;
   color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 .book-card-actions button:hover {
- opacity: 0.9;
+  opacity: 0.85;
 }
 
-.btn-reserve { background-color: #28a745; }
-.btn-cancel-reserve { background-color: #ffc107; color: #333; } /* Amarelo */
-.btn-edit { background-color: #007bff; }
-.btn-delete { background-color: #dc3545; } /* Vermelho */
+.btn-main-action { /* Botão de reservar/cancelar reserva */
+  grid-column: 1 / -1; /* Ocupa as duas colunas */
+  margin-bottom: 0.5rem; /* Espaço se houver outros botões abaixo */
+}
+
+.btn-reserve { background-color: var(--success-color); }
+.btn-cancel-reserve { background-color: var(--warning-color); color: var(--dark-color); }
+.btn-edit { background-color: var(--primary-color); }
+.btn-delete { background-color: var(--danger-color); }
