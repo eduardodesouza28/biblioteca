@@ -1,0 +1,504 @@
+{
+  "livros": [
+    {
+      "id": 1,
+      "titulo": "Dom Casmurro",
+      "autor": "Machado de Assis",
+      "genero": "Romance",
+      "pontoComunitario": "Biblioteca Central da Praça",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Dom_Casmurro_pg_1.png/220px-Dom_Casmurro_pg_1.png"
+    },
+    {
+      "id": 2,
+      "titulo": "A Revolução dos Bichos",
+      "autor": "George Orwell",
+      "genero": "Sátira Política",
+      "pontoComunitario": "Ponto de Leitura Vila Esperança",
+      "status": "reservado",
+      "reservadoPor": "leitor@email.com",
+      "imagemCapa": "https://m.media-amazon.com/images/I/91BsZhxCRjL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 3,
+      "titulo": "O Pequeno Príncipe",
+      "autor": "Antoine de Saint-Exupéry",
+      "genero": "Infantil",
+      "pontoComunitario": "Biblioteca Central da Praça",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/71d4XmpyR1L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 4,
+      "titulo": "1984",
+      "autor": "George Orwell",
+      "genero": "Ficção Distópica",
+      "pontoComunitario": "Ponto de Leitura Centro Cultural",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/71kxa1-0mfL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 5,
+      "titulo": "Orgulho e Preconceito",
+      "autor": "Jane Austen",
+      "genero": "Romance",
+      "pontoComunitario": "Biblioteca Parque Municipal",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/71Q1tPupKjL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 6,
+      "titulo": "O Senhor dos Anéis: A Sociedade do Anel",
+      "autor": "J.R.R. Tolkien",
+      "genero": "Fantasia",
+      "pontoComunitario": "Ponto de Leitura Vila Esperança",
+      "status": "reservado",
+      "reservadoPor": "tolkienfan@email.com",
+      "imagemCapa": "https://m.media-amazon.com/images/I/71jLBXtWJWL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 7,
+      "titulo": "Crime e Castigo",
+      "autor": "Fiódor Dostoiévski",
+      "genero": "Romance Psicológico",
+      "pontoComunitario": "Biblioteca Central da Praça",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/71YHjVXyR0L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 8,
+      "titulo": "Cem Anos de Solidão",
+      "autor": "Gabriel García Márquez",
+      "genero": "Realismo Mágico",
+      "pontoComunitario": "Biblioteca Latino-Americana",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/91uvE2g1PBL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 9,
+      "titulo": "O Grande Gatsby",
+      "autor": "F. Scott Fitzgerald",
+      "genero": "Romance",
+      "pontoComunitario": "Biblioteca Parque Municipal",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/71FTb9X6wsL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 10,
+      "titulo": "Memórias Póstumas de Brás Cubas",
+      "autor": "Machado de Assis",
+      "genero": "Romance",
+      "pontoComunitario": "Biblioteca Central da Praça",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/81Z+Z+5Jq8L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 11,
+      "titulo": "O Hobbit",
+      "autor": "J.R.R. Tolkien",
+      "genero": "Fantasia",
+      "pontoComunitario": "Ponto de Leitura Vila Esperança",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/710+HcoP38L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 12,
+      "titulo": "A Metamorfose",
+      "autor": "Franz Kafka",
+      "genero": "Ficção Absurda",
+      "pontoComunitario": "Biblioteca Central da Praça",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/71FS2K-E1qL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 13,
+      "titulo": "O Processo",
+      "autor": "Franz Kafka",
+      "genero": "Ficção Absurda",
+      "pontoComunitario": "Biblioteca Central da Praça",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/71FS2K-E1qL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 14,
+      "titulo": "O Retrato de Dorian Gray",
+      "autor": "Oscar Wilde",
+      "genero": "Romance Filosófico",
+      "pontoComunitario": "Biblioteca Parque Municipal",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/71Q1tPupKjL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 15,
+      "titulo": "Ulisses",
+      "autor": "James Joyce",
+      "genero": "Romance Experimental",
+      "pontoComunitario": "Biblioteca Central da Praça",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/71YHjVXyR0L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 16,
+      "titulo": "A Divina Comédia",
+      "autor": "Dante Alighieri",
+      "genero": "Poesia Épica",
+      "pontoComunitario": "Biblioteca Central da Praça",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/91uvE2g1PBL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 17,
+      "titulo": "O Apanhador no Campo de Centeio",
+      "autor": "J.D. Salinger",
+      "genero": "Romance",
+      "pontoComunitario": "Biblioteca Parque Municipal",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/71FTb9X6wsL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 18,
+      "titulo": "Moby Dick",
+      "autor": "Herman Melville",
+      "genero": "Aventura",
+      "pontoComunitario": "Biblioteca Central da Praça",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/81Z+Z+5Jq8L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 19,
+      "titulo": "Guerra e Paz",
+      "autor": "Liev Tolstói",
+      "genero": "Romance Histórico",
+      "pontoComunitario": "Biblioteca Central da Praça",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/710+HcoP38L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 20,
+      "titulo": "O Estrangeiro",
+      "autor": "Albert Camus",
+      "genero": "Ficção Existencialista",
+      "pontoComunitario": "Biblioteca Central da Praça",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/71FS2K-E1qL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 21,
+      "titulo": "A Redoma de Vidro",
+      "autor": "Sylvia Plath",
+      "genero": "Romance",
+      "pontoComunitario": "Biblioteca Parque Municipal",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/71Q1tPupKjL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 22,
+      "titulo": "Lolita",
+      "autor": "Vladimir Nabokov",
+      "genero": "Romance",
+      "pontoComunitario": "Biblioteca Central da Praça",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/71YHjVXyR0L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 23,
+      "titulo": "O Sol é para Todos",
+      "autor": "Harper Lee",
+      "genero": "Romance",
+      "pontoComunitario": "Biblioteca Central da Praça",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/91uvE2g1PBL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 24,
+      "titulo": "Fahrenheit 451",
+      "autor": "Ray Bradbury",
+      "genero": "Ficção Científica",
+      "pontoComunitario": "Biblioteca Parque Municipal",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/71FTb9X6wsL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 25,
+      "titulo": "A Náusea",
+      "autor": "Jean-Paul Sartre",
+      "genero": "Ficção Existencialista",
+      "pontoComunitario": "Biblioteca Central da Praça",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/81Z+Z+5Jq8L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 26,
+      "titulo": "O Amor nos Tempos do Cólera",
+      "autor": "Gabriel García Márquez",
+      "genero": "Realismo Mágico",
+      "pontoComunitario": "Biblioteca Latino-Americana",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/710+HcoP38L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 27,
+      "titulo": "O Leão, a Feiticeira e o Guarda-Roupa",
+      "autor": "C.S. Lewis",
+      "genero": "Fantasia",
+      "pontoComunitario": "Ponto de Leitura Vila Esperança",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/71FS2K-E1qL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 28,
+      "titulo": "O Nome da Rosa",
+      "autor": "Umberto Eco",
+      "genero": "Romance Histórico",
+      "pontoComunitario": "Biblioteca Central da Praça",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/71Q1tPupKjL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 29,
+      "titulo": "Ensaio sobre a Cegueira",
+      "autor": "José Saramago",
+      "genero": "Ficção Distópica",
+      "pontoComunitario": "Biblioteca Central da Praça",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/71YHjVXyR0L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 30,
+      "titulo": "O Alquimista",
+      "autor": "Paulo Coelho",
+      "genero": "Romance Filosófico",
+      "pontoComunitario": "Biblioteca Latino-Americana",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/91uvE2g1PBL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 31,
+      "titulo": "A Hora da Estrela",
+      "autor": "Clarice Lispector",
+      "genero": "Romance",
+      "pontoComunitario": "Biblioteca Central da Praça",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/71FTb9X6wsL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 32,
+      "titulo": "O Morro dos Ventos Uivantes",
+      "autor": "Emily Brontë",
+      "genero": "Romance Gótico",
+      "pontoComunitario": "Biblioteca Parque Municipal",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/81Z+Z+5Jq8L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 33,
+      "titulo": "O Conde de Monte Cristo",
+      "autor": "Alexandre Dumas",
+      "genero": "Aventura",
+      "pontoComunitario": "Biblioteca Central da Praça",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/710+HcoP38L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 34,
+      "titulo": "Madame Bovary",
+      "autor": "Gustave Flaubert",
+      "genero": "Romance",
+      "pontoComunitario": "Biblioteca Central da Praça",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/71FS2K-E1qL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 35,
+      "titulo": "Anna Kariênina",
+      "autor": "Liev Tolstói",
+      "genero": "Romance",
+      "pontoComunitario": "Biblioteca Central da Praça",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/71Q1tPupKjL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 36,
+      "titulo": "O Velho e o Mar",
+      "autor": "Ernest Hemingway",
+      "genero": "Novela",
+      "pontoComunitario": "Biblioteca Parque Municipal",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/71YHjVXyR0L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 37,
+      "titulo": "As Vinhas da Ira",
+      "autor": "John Steinbeck",
+      "genero": "Romance",
+      "pontoComunitario": "Biblioteca Central da Praça",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/91uvE2g1PBL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 38,
+      "titulo": "O Lobo da Estepe",
+      "autor": "Hermann Hesse",
+      "genero": "Romance",
+      "pontoComunitario": "Biblioteca Central da Praça",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/71FTb9X6wsL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 39,
+      "titulo": "A Insustentável Leveza do Ser",
+      "autor": "Milan Kundera",
+      "genero": "Romance Filosófico",
+      "pontoComunitario": "Biblioteca Central da Praça",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/81Z+Z+5Jq8L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 40,
+      "titulo": "O Jogo da Amarelinha",
+      "autor": "Julio Cortázar",
+      "genero": "Romance Experimental",
+      "pontoComunitario": "Biblioteca Latino-Americana",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/710+HcoP38L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 41,
+      "titulo": "O Homem Invisível",
+      "autor": "H.G. Wells",
+      "genero": "Ficção Científica",
+      "pontoComunitario": "Biblioteca Parque Municipal",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/71FS2K-E1qL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 42,
+      "titulo": "A Sangue Frio",
+      "autor": "Truman Capote",
+      "genero": "Romance Jornalístico",
+      "pontoComunitario": "Biblioteca Central da Praça",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/71Q1tPupKjL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 43,
+      "titulo": "O Iluminado",
+      "autor": "Stephen King",
+      "genero": "Terror",
+      "pontoComunitario": "Biblioteca Central da Praça",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/71YHjVXyR0L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 44,
+      "titulo": "Neuromancer",
+      "autor": "William Gibson",
+      "genero": "Cyberpunk",
+      "pontoComunitario": "Biblioteca Central da Praça",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/91uvE2g1PBL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 45,
+      "titulo": "A Menina que Roubava Livros",
+      "autor": "Markus Zusak",
+      "genero": "Romance Histórico",
+      "pontoComunitario": "Biblioteca Parque Municipal",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/71FTb9X6wsL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 46,
+      "titulo": "O Código Da Vinci",
+      "autor": "Dan Brown",
+      "genero": "Suspense",
+      "pontoComunitario": "Biblioteca Central da Praça",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/81Z+Z+5Jq8L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 47,
+      "titulo": "A Sombra do Vento",
+      "autor": "Carlos Ruiz Zafón",
+      "genero": "Romance",
+      "pontoComunitario": "Biblioteca Latino-Americana",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/710+HcoP38L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 48,
+      "titulo": "O Poder do Hábito",
+      "autor": "Charles Duhigg",
+      "genero": "Não-Ficção",
+      "pontoComunitario": "Biblioteca Central da Praça",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/71FS2K-E1qL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 49,
+      "titulo": "O Mundo de Sofia",
+      "autor": "Jostein Gaarder",
+      "genero": "Romance Filosófico",
+      "pontoComunitario": "Biblioteca Central da Praça",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/71Q1tPupKjL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 50,
+      "titulo": "A Arte da Guerra",
+      "autor": "Sun Tzu",
+      "genero": "Estratégia",
+      "pontoComunitario": "Biblioteca Central da Praça",
+      "status": "disponivel",
+      "reservadoPor": null,
+      "imagemCapa": "https://m.media-amazon.com/images/I/71YHjVXyR0L._AC_UF1000,1000_QL80_.jpg"
+    }
+  ]
+}
