@@ -61,16 +61,6 @@
       "imagemCapa": "https://m.media-amazon.com/images/I/91b0C2YNSrL.jpg"
     },
     {
-      "id": 7,
-      "titulo": "Harry Potter e a Pedra Filosofal",
-      "autor": "J.K. Rowling",
-      "genero": "Fantasia",
-      "pontoComunitario": "Biblioteca Central da Praça",
-      "status": "disponivel",
-      "reservadoPor": null,
-      "imagemCapa": "https://m.media-amazon.com/images/I/81YOuOGFCJL.jpg"
-    },
-    {
       "id": 8,
       "titulo": "O Código Da Vinci",
       "autor": "Dan Brown",
@@ -489,16 +479,6 @@
       "status": "disponivel",
       "reservadoPor": null,
       "imagemCapa": "https://m.media-amazon.com/images/I/61F2TYO0lXL.jpg"
-    },
-    {
-      "id": 50,
-      "titulo": "Capitães da Areia",
-      "autor": "Jorge Amado",
-      "genero": "Literatura Brasileira",
-      "pontoComunitario": "Ponto de Leitura Vila Esperança",
-      "status": "reservado",
-      "reservadoPor": "usuario17@email.com",
-      "imagemCapa": "https://m.media-amazon.com/images/I/81Qx5uCNv9L.jpg"
     }
   ]
 }
